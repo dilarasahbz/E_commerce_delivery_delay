@@ -94,4 +94,3 @@ GitHub, .pptx dosyalarını tarayıcıda önizlemediği için PDF halini de ekle
 
 📄 [`eticaret_teslimat_gecikme_tahmini.pdf`](eticaret_teslimat_gecikme_tahmini.pdf) *(GitHub üzerinde tıklayınca açılır)*
 
-Orijinal PowerPoint dosyası: [`eticaret_teslimat_gecikme_tahmini.pptx`](eticaret_teslimat_gecikme_tahmini.pptx) *(indirmen gerekir)*
