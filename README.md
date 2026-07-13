@@ -8,6 +8,8 @@ Azure ML Pipeline ile ikili sınıflandırma kullanılarak, bir siparişin kargo
 
 Gecikmeli siparişlerde ortalama teslimat süresi 31,1 gün; zamanında teslimatta ise 10,4 gün — gecikmeli siparişler yaklaşık 3 kat daha uzun sürüyor.
 
+Ham veri seti: [`eticaret_data.csv`](eticaret_data.csv)
+
 ## Problem Tanımı
 
 Bir sipariş kargoya verildiği anda teslimatın gecikip gecikmeyeceğini önceden tahmin etmek, şu alanlarda değer yaratır:
@@ -71,7 +73,6 @@ En güçlü sinyaller:
 
 ## Çıkarımlar
 
-- RJ eyaletinde gecikme oranı %13,5 — SP eyaletinin 2,3 katı
 - `carrier_ratio` hem LR hem BDT'de üst sıralarda: kargo firması seçimi gecikme riskini doğrudan belirliyor
 - Model, Azure ML Real-time Endpoint ile üretim ortamına entegre edilmeye hazır
 
@@ -89,4 +90,8 @@ Microsoft Azure Machine Learning Studio
 
 ## Proje Sunumu
 
-Detaylı sunum için: [`eticaret_gecikme_tahmini.pptx`](eticaret_gecikme_tahmini.pptx)
+GitHub, .pptx dosyalarını tarayıcıda önizlemediği için PDF halini de ekledim — sunumu doğrudan görüntülemek için:
+
+📄 [`eticaret_teslimat_gecikme_tahmini.pdf`](eticaret_teslimat_gecikme_tahmini.pdf) *(GitHub üzerinde tıklayınca açılır)*
+
+Orijinal PowerPoint dosyası: [`eticaret_teslimat_gecikme_tahmini.pptx`](eticaret_teslimat_gecikme_tahmini.pptx) *(indirmen gerekir)*
