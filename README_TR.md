@@ -57,9 +57,9 @@ Logistic Regression, daha yüksek accuracy ve AUC ile daha dengeli ve güvenilir
 
 ![BDT Evaluation](images/boosted_decision_tree_chronological_evaluation_results.png)
 
-## Özellik Önemi (Permutation Feature Importance)
+## Özellik Önemi (Permutation Feature Importance — Logistic Regression)
 
-En güçlü sinyaller:
+En güçlü sinyaller (LR modeline göre):
 
 1. **log_freight (0,486)** — Yüksek kargo bedeli, ağır/büyük paketlerle ilişkili ve gecikmeye daha yatkın
 2. **pickup_ratio (0,318)** — Kargo firmasının paketi ne hızlı aldığı gecikmeyi doğrudan etkiliyor
@@ -68,6 +68,9 @@ En güçlü sinyaller:
 
 ![LR Feature Importance 1](images/logistic_regression_chronological_pfi1.png)
 ![LR Feature Importance 2](images/logistic_regression_chronological_pfi2.png)
+
+Boosted Decision Tree modelinin PFI sonuçları için:
+
 ![BDT Feature Importance 1](images/boosted_decision_tree_chronological_pfi1.png)
 ![BDT Feature Importance 2](images/boosted_decision_tree_chronological_pfi2.png)
 
@@ -93,4 +96,3 @@ Microsoft Azure Machine Learning Studio
 GitHub, .pptx dosyalarını tarayıcıda önizlemediği için PDF halini de ekledim — sunumu doğrudan görüntülemek için:
 
 📄 [`eticaret_teslimat_gecikme_tahmini.pdf`](eticaret_teslimat_gecikme_tahmini.pdf) *(GitHub üzerinde tıklayınca açılır)*
-
