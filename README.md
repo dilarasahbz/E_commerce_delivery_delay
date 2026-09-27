@@ -57,9 +57,9 @@ Logistic Regression provided a more balanced and robust overall model with highe
 
 ![BDT Evaluation](images/boosted_decision_tree_chronological_evaluation_results.png)
 
-## Feature Importance (Permutation Feature Importance)
+## Feature Importance (Permutation Feature Importance — Logistic Regression)
 
-Strongest predictive signals:
+Strongest predictive signals (according to the LR model):
 
 1. **log_freight (0.486)** — Higher freight charges correlate with bulkier/heavier packages, which are more prone to transit delays
 2. **pickup_ratio (0.318)** — Carrier dispatch latency directly dictates overall delivery timelines
@@ -68,6 +68,9 @@ Strongest predictive signals:
 
 ![LR Feature Importance 1](images/logistic_regression_chronological_pfi1.png)
 ![LR Feature Importance 2](images/logistic_regression_chronological_pfi2.png)
+
+For the Boosted Decision Tree model's PFI results:
+
 ![BDT Feature Importance 1](images/boosted_decision_tree_chronological_pfi1.png)
 ![BDT Feature Importance 2](images/boosted_decision_tree_chronological_pfi2.png)
 
