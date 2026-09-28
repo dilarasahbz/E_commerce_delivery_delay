@@ -1,6 +1,7 @@
 # E-Commerce Delivery Delay Prediction Model
 
 A machine learning project built with an Azure ML Pipeline using binary classification to predict delivery delays the moment an order is dispatched.
+(The project was carried out by a team of 2.)
 
 ## Dataset
 
