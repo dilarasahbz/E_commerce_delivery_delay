@@ -2,6 +2,8 @@
 
 Azure ML Pipeline ile ikili sınıflandırma kullanılarak, bir siparişin kargoya verildiği anda teslimatta gecikme olup olmayacağını tahmin eden makine öğrenmesi projesi.
 
+Ekip: 2 kişi 
+
 ## Veri Seti
 
 **Olist E-Ticaret (Brezilya)** — 96.470 sipariş | 2016–2018 | %8,1 gecikme oranı
