@@ -9,7 +9,6 @@ A machine learning project built with an Azure ML Pipeline using binary classifi
 
 Average delivery time for delayed orders is 31.1 days versus 10.4 days for on-time deliveries — delayed orders take approximately 3 times longer.
 
-Raw dataset: [`eticaret_data.csv`](eticaret_data.csv)
 
 ## Problem Definition
 
